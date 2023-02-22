@@ -115,8 +115,17 @@
                 }
               }
             }
+          },
+          {
+            "id": "3f2077f0c076d292",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d0a1030f18e0ea1b",
@@ -191,7 +200,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f1eceec51c18ecc2",
+  "active": "3f2077f0c076d292",
   "lastOpenFiles": [
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
