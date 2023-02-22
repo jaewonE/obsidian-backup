@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7afbc9896f0b5a68",
+        "id": "cdb6b0472ecf3558",
         "type": "tabs",
         "children": [
           {
-            "id": "f1eceec51c18ecc2",
+            "id": "f7e274c8ad7e13d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
-                "mode": "preview",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -124,8 +124,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d0a1030f18e0ea1b",
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md"
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md"
               }
             }
           }
@@ -200,17 +199,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f2077f0c076d292",
+  "active": "cae70eb3015c5c9c",
   "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+    "README.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/최소제곱직선.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/적합성결여(lack of fit).md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/신뢰구간.md"
+    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md"
   ]
 }
