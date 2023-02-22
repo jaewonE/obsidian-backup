@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "theme": "system",
+  "enabledCssSnippets": [
+    "main",
+    "clean-embeds-all",
+    "clean-embeds"
+  ]
+}

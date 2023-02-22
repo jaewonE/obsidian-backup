@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "d8991602f5db0fb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "30936c8a7d7dafd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef1ffe13c04c96bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2장 통계학습/2.1 통계학습이란?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71fe3e442767724b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9d6782b280395763",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1fd450ef8743150d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1ddcee4a5ccdc77e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "80afae64509be8a4",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6eaa2cfb0ceffa06",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2865961fd9cf7d54",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "2장 통계학습/2.1 통계학습이란?.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "882b4ea06cecc17e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "2장 통계학습/2.1 통계학습이란?.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8ca03e251b1c7f28",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "2장 통계학습/2.1 통계학습이란?.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "ef1ffe13c04c96bf",
+  "lastOpenFiles": []
+}

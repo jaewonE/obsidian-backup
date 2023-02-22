@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "9376d9836d8eb4c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7afbc9896f0b5a68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1eceec51c18ecc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2879416c77e6259b",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa4bfc59792f2786",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b612f5f0737fe4f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b8e13ff9fda2a74e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "SSR",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d8b266fa3882231",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 222.50390243530273
+  },
+  "right": {
+    "id": "2bcdfa799b8594ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "991695ecb37a669f",
+        "type": "tabs",
+        "dimension": 34.58646616541353,
+        "children": [
+          {
+            "id": "cae70eb3015c5c9c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.63455396271262,
+                  "repelStrength": 7.9165119215628,
+                  "linkStrength": 0.788977196761495,
+                  "linkDistance": 159,
+                  "scale": 0.6577403161000731,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d0a1030f18e0ea1b",
+        "type": "tabs",
+        "dimension": 65.41353383458647,
+        "children": [
+          {
+            "id": "c9f454ed9b5dc8d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7360171d1c32b19a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e0e636f4d524c85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "92f00bd326e3a401",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "f1eceec51c18ecc2",
+  "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/최소제곱직선.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/적합성결여(lack of fit).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/잔차.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/신뢰구간.md"
+  ]
+}
