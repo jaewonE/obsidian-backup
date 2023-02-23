@@ -136,6 +136,13 @@
   padding: 0;
 }
 
+/*my-custom*/
+.internal-embed[alt*='na'].markdown-embed
+  :is(h1, h2, h3, h4, h5, h6)
+  :first-child {
+  display: none;
+}
+
 /*Hide Headings*/
 .internal-embed[alt*='no-h'] .markdown-embed :is(h1, h2, h3, h4, h5, h6),
 .internal-embed[alt*='no-h'].markdown-embed :is(h1, h2, h3, h4, h5, h6) {
