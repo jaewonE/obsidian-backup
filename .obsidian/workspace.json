@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.50390243530273
+    "width": 222.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "2bcdfa799b8594ef",
@@ -186,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 305.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
