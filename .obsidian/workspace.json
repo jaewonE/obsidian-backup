@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.50390243530273,
-    "collapsed": true
+    "width": 222.50390243530273
   },
   "right": {
     "id": "2bcdfa799b8594ef",
@@ -102,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -152,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md"
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md"
               }
             }
           }
@@ -201,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,9 +216,9 @@
   "active": "63a4fbaaa61c9953",
   "lastOpenFiles": [
     "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/Obsidian css enbed test.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표본평균.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차표준오차(RSE).md",

@@ -2,7 +2,7 @@
   .markdown-preview-section
   > div
   > p
-  > .inline-embed:not([alt*='show-st'])
+  > .inline-embed[src*='#']:not([alt*='show-st'])
   .markdown-preview-section
   > div:nth-child(3)
   > :is(h1, h2, h3, h4, h5, h6) {
