@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -190,9 +190,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:새 캔버스 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
-      "canvas:Create new canvas": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
@@ -201,15 +201,15 @@
   },
   "active": "314d7ab3d87833c8",
   "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/백분률오차(percentage error).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/잔차표준오차(RSE).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
     "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/잔차표준오차(RSE).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/백분률오차(percentage error).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/신뢰구간.md",
     "Obsidian css enbed test.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/표본평균.md"
+    "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md"
   ]
 }
