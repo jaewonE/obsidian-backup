@@ -4,6 +4,7 @@
   "enabledCssSnippets": [
     "main",
     "clean-embeds-all",
+    "embed-adjustments",
     "clean-embeds"
   ]
 }
