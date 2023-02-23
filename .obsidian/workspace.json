@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6d2d13ad2a2e2df6",
+        "id": "03c625d837a56994",
         "type": "tabs",
         "children": [
           {
-            "id": "8863e53deabace55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63a4fbaaa61c9953",
+            "id": "063316fd8da60f2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,17 +199,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "63a4fbaaa61c9953",
+  "active": "063316fd8da60f2e",
   "lastOpenFiles": [
     "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/최소제곱직선.md",
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/Obsidian css enbed test.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표본평균.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차표준오차(RSE).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
-    "README.md"
+    "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md"
   ]
 }
