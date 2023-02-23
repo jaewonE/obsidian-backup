@@ -9,6 +9,11 @@
   display: none;
 }
 
+.internal-embed[alt*='show-st'] :is(h1, h2, h3, h4, h5, h6),
+.internal-embed[alt*='show-st'] :is(h1, h2, h3, h4, h5, h6) {
+  display: block;
+}
+
 .markdown-preview-view .markdown-embed .file-embed-link,
 .markdown-preview-view .markdown-embed .markdown-embed-link {
   opacity: 0;
