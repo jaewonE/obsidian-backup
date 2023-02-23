@@ -2,25 +2,11 @@
   .markdown-preview-section
   > div
   > p
-  > .inline-embed
+  > .inline-embed:not([alt*='show-st'])
   .markdown-preview-section
   > div:nth-child(3)
   > :is(h1, h2, h3, h4, h5, h6) {
-  /* display: none; */
-  background: red;
-}
-
-/* .internal-embed[alt*='show-st']
-  .markdown-preview-section
-  > div:nth-child(3)
-  > :is(h1, h2, h3, h4, h5, h6) {
-  display: block;
-} */
-
-.:internal-embed:not[alt*='show-st']
-  .markdown-preview-section
-  > div:nth-child(3) {
-  background: red;
+  display: none;
 }
 
 .markdown-preview-view .markdown-embed .file-embed-link,
