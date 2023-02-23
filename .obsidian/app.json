@@ -3,5 +3,8 @@
   "newFileLocation": "current",
   "promptDelete": false,
   "livePreview": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "showUnsupportedFiles": false,
+  "readableLineLength": true,
+  "showLineNumber": false
 }
