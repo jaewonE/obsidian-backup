@@ -1,0 +1,21 @@
+.view-content
+  .markdown-preview-section
+  > div
+  > p
+  > .inline-embed
+  .markdown-preview-section
+  > div:nth-child(3)
+  > :is(h1, h2, h3, h4, h5, h6) {
+  display: none;
+}
+
+.markdown-preview-view .markdown-embed .file-embed-link,
+.markdown-preview-view .markdown-embed .markdown-embed-link {
+  opacity: 0;
+  transition: background-color 1s, transform 1s;
+}
+
+.markdown-preview-view .markdown-embed:hover .file-embed-link,
+.markdown-preview-view .markdown-embed:hover .markdown-embed-link {
+  opacity: 1;
+}

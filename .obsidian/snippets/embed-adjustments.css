@@ -136,29 +136,6 @@
   padding: 0;
 }
 
-/*my-custom*/
-.view-content
-  .markdown-preview-section
-  > div
-  > p
-  > .inline-embed
-  .markdown-preview-section
-  > div:nth-child(3)
-  > :is(h1, h2, h3, h4, h5, h6) {
-  opacity: 0;
-}
-
-.view-content
-  .markdown-preview-section
-  > div
-  > p
-  > .inline-embed
-  .markdown-preview-section
-  > div:nth-child(3)
-  > :is(h1, h2, h3, h4, h5, h6):hover {
-  opacity: 1;
-}
-
 /*Hide Headings*/
 .internal-embed[alt*='no-h'] .markdown-embed :is(h1, h2, h3, h4, h5, h6),
 .internal-embed[alt*='no-h'].markdown-embed :is(h1, h2, h3, h4, h5, h6) {

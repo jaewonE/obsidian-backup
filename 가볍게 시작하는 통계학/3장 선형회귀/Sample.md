@@ -3,4 +3,4 @@
 - Enable `clean-embeds` under *Settings → Appearance → CSS snippets*. 
 - Use `cssclass: clean-embeds` in YAML frontmatter to enable "clean" embedding. 
 
-![[최소제곱법#개요|na]]
+![[최소제곱법#최소제곱법|na]]

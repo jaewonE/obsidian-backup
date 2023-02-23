@@ -14,13 +14,27 @@
               "type": "markdown",
               "state": {
                 "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8863e53deabace55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#잔차",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +102,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -138,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/Sample.md"
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md"
               }
             }
           }
@@ -201,10 +215,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a987b1cdb5e151b5",
+  "active": "8863e53deabace55",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
     "가볍게 시작하는 통계학/3장 선형회귀/Sample.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/최소제곱법.md",
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표본평균.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
