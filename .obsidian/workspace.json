@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cdb6b0472ecf3558",
+        "id": "aa533c64a2be940b",
         "type": "tabs",
         "children": [
           {
-            "id": "f7e274c8ad7e13d3",
+            "id": "856bfbe7da2b35c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,7 +82,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -199,10 +189,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cae70eb3015c5c9c",
+  "active": "856bfbe7da2b35c5",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
     "README.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
