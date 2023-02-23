@@ -137,7 +137,8 @@
 }
 
 /*my-custom*/
-.internal-embed[alt*='na'].markdown-embed h5 {
+.internal-embed[alt*='na'].markdown-embed
+  .markdown-preview-section:nth-child(3) {
   background: red;
 }
 
