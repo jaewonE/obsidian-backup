@@ -137,9 +137,26 @@
 }
 
 /*my-custom*/
-.internal-embed[alt*='na'].markdown-embed
-  .markdown-preview-section:nth-child(3) {
-  background: red;
+.view-content
+  .markdown-preview-section
+  > div
+  > p
+  > .inline-embed
+  .markdown-preview-section
+  > div:nth-child(3)
+  > :is(h1, h2, h3, h4, h5, h6) {
+  opacity: 0;
+}
+
+.view-content
+  .markdown-preview-section
+  > div
+  > p
+  > .inline-embed
+  .markdown-preview-section
+  > div:nth-child(3)
+  > :is(h1, h2, h3, h4, h5, h6):hover {
+  opacity: 1;
 }
 
 /*Hide Headings*/
