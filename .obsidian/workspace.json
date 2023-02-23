@@ -11,7 +11,7 @@
             "id": "856bfbe7da2b35c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -95,16 +95,16 @@
                   "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": false,
-                  "showArrow": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
+                  "nodeSizeMultiplier": 1.43465983072917,
+                  "lineSizeMultiplier": 0.986848958333333,
                   "collapse-forces": false,
-                  "centerStrength": 0.63455396271262,
-                  "repelStrength": 7.9165119215628,
-                  "linkStrength": 0.788977196761495,
-                  "linkDistance": 159,
-                  "scale": 0.6577403161000731,
+                  "centerStrength": 1,
+                  "repelStrength": 4.1015625,
+                  "linkStrength": 0.604248046875,
+                  "linkDistance": 30,
+                  "scale": 1.3832110115252223,
                   "close": true
                 }
               }
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,9 +191,9 @@
   },
   "active": "856bfbe7da2b35c5",
   "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
     "가볍게 시작하는 통계학/3장 선형회귀/총제곱합(TSS).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
     "README.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
