@@ -137,9 +137,7 @@
 }
 
 /*my-custom*/
-.internal-embed[alt*='na'].markdown-embed
-  :first-child
-  :is(h1, h2, h3, h4, h5, h6):first-child {
+.internal-embed[alt*='na'].markdown-embed h5 {
   background: red;
 }
 
