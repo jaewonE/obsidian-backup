@@ -2,4 +2,4 @@
 
 - Creater: JaewonE
 - Email: importjaewone@gmail.com
-- Backup interval: every 10 minutes
+- Backup interval: every 30 minutes

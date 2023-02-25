@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "364ded0aa37e75f7",
+        "id": "d90cdd0dde9badb3",
         "type": "tabs",
         "children": [
           {
-            "id": "f155be462917f70b",
+            "id": "ea7167dc25394ae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+                "file": "README.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md"
+                "file": "README.md"
               }
             }
           }
@@ -191,23 +191,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:새 캔버스 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f155be462917f70b",
+  "active": "ea7167dc25394ae0",
   "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
+    "가볍게 시작하는 통계학/2장 통계학습/2.3 R/R Programming.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/신뢰구간.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차.md",
     "가볍게 시작하는 통계학/3장 선형회귀/백분률오차(percentage error).md",
     "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/curse_dimensionality.png",
@@ -246,7 +247,6 @@
     "가볍게 시작하는 통계학/연습문제 정답/ch8/4.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch8/3.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch8/2.md",
-    "가볍게 시작하는 통계학/연습문제 정답/ch8/12.md",
-    "가볍게 시작하는 통계학/연습문제 정답/ch8/11.md"
+    "가볍게 시작하는 통계학/연습문제 정답/ch8/12.md"
   ]
 }
