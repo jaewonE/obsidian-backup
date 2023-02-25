@@ -2,10 +2,6 @@
   "accentColor": "",
   "theme": "system",
   "enabledCssSnippets": [
-    "main",
-    "clean-embeds-all",
-    "embed-adjustments",
-    "clean-embeds",
-    "header-spacing"
+    "clean-embeds-all"
   ]
 }
