@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/T-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -127,7 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/T-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
                   "repelStrength": 4.1015625,
                   "linkStrength": 0.604248046875,
                   "linkDistance": 30,
-                  "scale": 1.3832110115252223,
+                  "scale": 1.0484782134737238,
                   "close": true
                 }
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/T-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/T-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/T-value.md"
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md"
               }
             }
           }
@@ -226,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 245.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,7 +242,7 @@
   "active": "2eb2748496352dd0",
   "lastOpenFiles": [
     "가볍게 시작하는 통계학/3장 선형회귀/검정통계량.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/T-value.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
     "무제 파일 1.md",
     "무제 파일.md",
     "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
