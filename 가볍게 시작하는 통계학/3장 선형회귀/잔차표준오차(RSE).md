@@ -3,8 +3,11 @@ $Y=\beta_0 + \beta_1X + \epsilon$ 형태의 [[모회귀선]]에서 실제 회귀
 
 ##### 정의
 모회귀선에서 오차항($\epsilon$)의 표준편차에 대한 추정값으로, 대략 반응변수 값이 실제 회귀선으로부터 벗어나게 될 평균값을 의미항며 아래와 같이 계산 할 수 있다. 
+$$RSE \,= \,\sqrt{\cfrac{1}{n-p-1}RSS}\,=\,
+\sqrt{\cfrac{1}{n-p-1}\displaystyle\sum^n_{i=1}(y_i-\hat{y}_i)^2}$$
+이때 단순선형회귀의 경우 아래와 같이 간소화 할 수 있다.
 $$RSE = \sqrt{\cfrac{1}{n-2}RSS}\,=\,
-\sqrt{\cfrac{!}{n-2}\displaystyle\sum^n_{i=1}(y_i-\hat{y}_i)^2}$$
+\sqrt{\cfrac{1}{n-2}\displaystyle\sum^n_{i=1}(y_i-\hat{y}_i)^2}$$
 ##### 의의 및 활용
 * RSE는 [[백분률오차(percentage error)]]를 계산하는 것에 사용될 수 있다.
 * RSE는 데이터에 대한 모델의 [[적합성결여(lack of fit)]]를 나타내는 측도로 간주된다. 
