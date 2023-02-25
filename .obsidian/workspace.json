@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d90cdd0dde9badb3",
+        "id": "f8404f84ee4f3b39",
         "type": "tabs",
         "children": [
           {
-            "id": "246d1fb5668725c1",
+            "id": "3cc4ec496af2b733",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/3.2 다중선형회귀.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/F-value.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,33 +21,7 @@
             }
           },
           {
-            "id": "31cbc4288da3f91c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b970fe3092ff68d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/검정통계량.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2eb2748496352dd0",
+            "id": "c1f712ea8c27ed38",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -59,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.50390243530273
+    "width": 222.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "2bcdfa799b8594ef",
@@ -127,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/F-value.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -177,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/F-value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/F-value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/t-value.md"
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/F-value.md"
               }
             }
           }
@@ -226,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,18 +214,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2eb2748496352dd0",
+  "active": "3cc4ec496af2b733",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/검정통계량.md",
     "가볍게 시작하는 통계학/3장 선형회귀/t-value.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/F-value.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/표준 오차.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/3.2 다중선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/검정통계량.md",
     "무제 파일 1.md",
     "무제 파일.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차제곱합(RSS).md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차.md",
     "가볍게 시작하는 통계학/3장 선형회귀/최소제곱직선.md",
     "가볍게 시작하는 통계학/3장 선형회귀/잔차표준오차(RSE).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/3.2 다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "README.md",
     "가볍게 시작하는 통계학/3장 선형회귀/단순선형회귀.md",
@@ -284,8 +261,6 @@
     "가볍게 시작하는 통계학/연습문제 정답/ch9/6.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch9/5.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch9/4.md",
-    "가볍게 시작하는 통계학/연습문제 정답/ch9/3.md",
-    "가볍게 시작하는 통계학/연습문제 정답/ch9/2.md",
-    "가볍게 시작하는 통계학/연습문제 정답/ch9/1.md"
+    "가볍게 시작하는 통계학/연습문제 정답/ch9/3.md"
   ]
 }
