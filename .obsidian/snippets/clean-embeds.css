@@ -32,9 +32,9 @@
 }
 
 /* remove <br> between internal embeds */
-.markdown-preview-section div > br {
+/* .markdown-preview-section div > br {
   display: none;
-}
+} */
 
 /* special considerations for printing (PDF export) */
 @media print {
