@@ -76,7 +76,7 @@ $$y_i=\beta_0+\beta_1 x_{i1}+\beta_1 x_{i2}+\epsilon_i= \begin{cases}\,\,\beta_0
 위와 같은 가산성 가정의 문제는 상호작용 효과를 포함하는 **상호작용항**이라 불리는 설명변수를 모델에 포함하여 해결 할 수 있다.
 위 예시에서 생산 라인의 수를 $X_1$이라고 하고 총 근로자의 수를 $X_2$라고 할 때 두 개의 변수를 가지는 일반적인 표준 선형회귀모델은 아래와 같이 구성될 것이다. 
 $$Y=\beta_0+\beta_1 X_1+\beta_2 X_2 +\epsilon$$
-이를 $X_1$과 $X_2$의 곱으로 구성된 상호작용항을 포함하면 아래와 같이 구성될 수 있다.
+이를 $X_1$과 $X_2$의 곱으로 구성된 상호작용항을 포함하면 아래와 같이 구성 할 수 있다.
 $$Y=\beta_0+\beta_1 X_1+\beta_2 X_2 + \beta_3X_1X_2 + \epsilon$$
 이를 정리하여 일반적인 표준선형회귀모델 형태로 표현하였을 때
 $$Y=\beta_0 \tilde{\beta_1}X_1 + \beta_2 X_2 + \epsilon \,\,\,\,\,\,\,\,\,where \,\,\tilde{\beta_1} = \beta_1 + \beta_3X_2$$
@@ -85,6 +85,21 @@ $\tilde{\beta_1}$은 $X_2$에 영향을 받음으로 가산성의 가정을 완�
 
 ### 가산성 가정의 제거 - 질적 설명변수
 질적 설명변수가 존재하는 경우에도 가변수를 추가함으로써 상호작용의 개념을 적용할 수 있다.
+예를 들어 수입(income)과 학생신분의 유무(student)를 통해 신용카드 대금(balance)를 예측하고자 한다고 하자.(이때 수입은 양적변수이고 학생신분의 유무는 질적변수이다. 아래에서 학생일 경우 1을 학생이 아닌 경우 0을 사용하여 표현하겠다.)
 
-#### 가정 및 문제제기
-예를 들어 수입(income)과 학생신분의 유무(student)를 통해 신용카드 대금(balance)
+먼저 상호작용항이 없는 표준선형회귀모델은 아래와 같이 작성될 것이다. 
+$$\begin{aligned} \text {balance}_i & \approx \beta_0+\beta_1 \times \text {income}_i+ \begin{cases}\beta_2 & \text{ i 번째 사람이 학생인 경우} \\ 0 & \text { i 번째 사람이 학생이 아닌 경우 }\end{cases} \\ & =\beta_1 \times \text {income}_i+ \begin{cases}\beta_0+\beta_2 & \text { i 번째 사람이 학생인 경우 } \\ \beta_0 & \text { i 번째 사람이 학생이 아닌 경우 }\end{cases} \end{aligned}$$
+위 모델에 상호작용항을 포함하여 아래와 같이 구성 할 수 있다. 
+$$\begin{aligned} \text {balance}_i & \approx \beta_0+\beta_1 \times \text {income}_i+ \begin{cases}\beta_2 + \beta_3 \times \text{income}_i & \text{ i 번째 사람이 학생인 경우} \\ 0 & \text { i 번째 사람이 학생이 아닌 경우 }\end{cases} \\ & =\beta_1 \times \text {income}_i+ \begin{cases}(\beta_0+\beta_2) + (\beta_1 + \beta_3) \times \text{income}_i & \text { i 번째 사람이 학생인 경우 } \\ \beta_0 + \beta_1 \times \text{income}_i & \text { i 번째 사람이 학생이 아닌 경우 }\end{cases} \end{aligned}$$
+
+위 두 모델을 아래 그래프를 참고하여 비교하여보자.
+![[FIGURE 3.7.png]]
+<income으로부터 balnace를 예측하기 위한 최소제곱선으로 왼쪽은 상호작용항이 없는 모델이고 오른쪽은 상호작용항이 있는 모델이다.>
+
+상호작용항이 없는 모델의 경우 두 직선은 $\beta_0 + \beta_2$와 $\beta_0$으로 다른 절편을 가지지만 $\beta_1$로 동일한 기울기를 가져 평행하다. 이는 학생신분의 유무가 소득과 신용카드 대금 사이에 주는 상호작용 효과가 없음을 의미하고 이는 잘못된 결론이다. 왜냐하면, 현실에서 소득의 변화는 학생신분의 유무에 따라 신용카드 대금에 아주 다른 효과를 주기 때문이다. 
+
+상호작용이 있는 모델의 경우 두 직선은 $\beta_0+\beta_2$과 $\beta_0$으로 다른 절편을 가지며 $\beta_1 + \beta_3$와 $\beta_1$로 다른 기울기를 가진다. 이는 소득 변화가 신용카드 대금에 미치는 영향이 학생인지 여부에 따라 다를 수 있다는 것을 시사하며 그래프를 통해 소득 증가에 따른 카드 대금 증가가 학생인 경우 학생이 아닌 사람보다 낮다(low)는 올바른 결론을 도출할 수  있다. 
+
+위와 같이 질적 설명변수에 대해서도 상호작용항을 추가함을 통해 실제에 맞는(현실적인) 모델을 형성 할 수 있음을 확인할 수 있다. 
+
+

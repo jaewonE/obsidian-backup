@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6cf13dcb5f0cc43",
+        "id": "8ea4827fc16e32a8",
         "type": "tabs",
         "children": [
           {
-            "id": "ce2a96a7034bc68a",
+            "id": "4dd52f57d4e80db9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -199,10 +199,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce2a96a7034bc68a",
+  "active": "4dd52f57d4e80db9",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/Images/FIGURE 3.7.png",
     "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard.md",
     "가볍게 시작하는 통계학/3장 선형회귀/예측구간.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
@@ -227,7 +228,6 @@
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-혼합선택(Mixed selection).md",
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-후진선택(Backward.md",
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-후진선택(Backward selection).md",
-    "가볍게 시작하는 통계학/3장 선형회귀/변수선택-전진선택.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/curse_dimensionality.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/edges.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch9/figure/9a.png",
@@ -237,7 +237,6 @@
     "가볍게 시작하는 통계학/연습문제 정답/ch9/figure/7d8.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch9/figure/7d5.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch9/figure/7d3.png",
-    "가볍게 시작하는 통계학/연습문제 정답/ch9/figure/7d4.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/neighbor.R",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/dimension.R",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/Hypercube-boundary-experiment.R",
