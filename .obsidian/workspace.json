@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+                "file": "가볍게 시작하는 통계학/2장 통계학습/KNN K-최근접이웃.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+                "file": "가볍게 시작하는 통계학/2장 통계학습/KNN K-최근접이웃.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+                "file": "가볍게 시작하는 통계학/2장 통계학습/KNN K-최근접이웃.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+                "file": "가볍게 시작하는 통계학/2장 통계학습/KNN K-최근접이웃.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md"
+                "file": "가볍게 시작하는 통계학/2장 통계학습/KNN K-최근접이웃.md"
               }
             }
           }
@@ -201,8 +201,8 @@
   },
   "active": "4dd52f57d4e80db9",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/Images/FIGURE 3.7.png",
     "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/Images/FIGURE 3.7.png",
     "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard.md",
     "가볍게 시작하는 통계학/3장 선형회귀/예측구간.md",
