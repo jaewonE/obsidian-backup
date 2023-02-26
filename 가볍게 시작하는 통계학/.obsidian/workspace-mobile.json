@@ -11,9 +11,11 @@
             "id": "ef1ffe13c04c96bf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "An Introduction to Statistical Learning  with Applications in R.pdf"
+                "file": "3장 선형회귀/변수 선택.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "An Introduction to Statistical Learning  with Applications in R.pdf",
+            "file": "3장 선형회귀/변수 선택.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "An Introduction to Statistical Learning  with Applications in R.pdf",
+            "file": "3장 선형회귀/변수 선택.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -112,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "An Introduction to Statistical Learning  with Applications in R.pdf"
+            "file": "3장 선형회귀/변수 선택.md"
           }
         }
       }
@@ -131,6 +133,24 @@
   },
   "active": "ef1ffe13c04c96bf",
   "lastOpenFiles": [
+    "3장 선형회귀/변수선택-전진선택.md",
+    "3장 선형회귀/변수선택-혼합선택(Mixed selection).md",
+    "3장 선형회귀/백분률오차(percentage error).md",
+    "3장 선형회귀/검정통계량.md",
+    "3장 선형회귀/3.2 다중선형회귀.md",
+    "3장 선형회귀/F-value.md",
+    "An Introduction to Statistical Learning  with Applications in R.pdf",
+    "3장 선형회귀/표준 오차(SEM).md",
+    "3장 선형회귀/t-value.md",
+    "3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+    "3장 선형회귀/변수 선택.md",
+    "3장 선형회귀/변수선택-후진선택(Backward selection).md",
+    "3장 선형회귀/다중선형회귀.md",
+    "3장 선형회귀/예측구간.md",
+    "2장 통계학습/질적 변수.md",
+    "2장 통계학습/양적 변수.md",
+    "2장 통계학습/축소가능오차.md",
+    "2장 통계학습/축소불가능오차.md",
     "3장 선형회귀/적합성결여(lack of fit).md",
     "2장 통계학습/Images/패키지 설치 및 사용 이미지1.png",
     "2장 통계학습/2.3 R/패키지 설치 및 사용.md",
@@ -139,32 +159,13 @@
     "3장 선형회귀/잔차표준오차(RSE).md",
     "3장 선형회귀/단순선형회귀.md",
     "3장 선형회귀/총제곱합(TSS).md",
-    "3장 선형회귀/백분률오차(percentage error).md",
     "2장 통계학습/2.3 R/반복문.md",
     "2장 통계학습/Images/FIGURE 2.12.png",
     "2장 통계학습/2.3 R/조건문.md",
-    "2장 통계학습/축소가능오차와 축소불가능오차.md",
-    "2장 통계학습/비지도학습.md",
     "1장 도입/untitled1.png",
-    "2장 통계학습/훈련오차율.md",
-    "2장 통계학습/지도학습.md",
-    "2장 통계학습/2.3 R/R Programming.md",
     "2장 통계학습/Images/FIGURE 2.13.png",
-    "2장 통계학습/2.장 연습문제.md",
-    "2장 통계학습/설명변수와 반응변수.md",
-    "2장 통계학습/평균 제곱 오차 MSE.md",
-    "2장 통계학습/2.3 R/변수(객체)와 입출력.md",
     "2장 통계학습/Images/FIGURE 2.7.png",
-    "3장 선형회귀/3.1 단순선형회귀.md",
-    "2장 통계학습/2.3 R/Hello R.md",
     "2장 통계학습/Images/FIGURE 2.16.png",
-    "2장 통계학습/2.3 R/함수.md",
-    "2장 통계학습/검정오차율.md",
-    "2장 통계학습/비모수적 방법.md",
-    "3장 선형회귀/신뢰구간.md",
-    "2장 통계학습/2.1 통계학습이란?.md",
-    "2장 통계학습/베이즈 분류기.md",
-    "An Introduction to Statistical Learning  with Applications in R.pdf",
     "3장 선형회귀/Images/FIGURE 3.2.png",
     "2장 통계학습/Images/FIGURE 2.14.png",
     "3장 선형회귀/Images/FIGURE 3.1.png"

@@ -26,6 +26,7 @@ $$x_i\begin{cases}\,\,1 & \text { i 번째 사람이 여성인 경우 } \\\\ \,\
 $$y_i=\beta_0+\beta_1 x_i+\epsilon_i= \begin{cases}\,\,\beta_0+\beta_1+\epsilon_i & \text{i 번째 사람이 여성인 경우} \\\\\,\, \beta_0+\epsilon_i & \text{i 번째 사람이 남성인 경우}\end{cases}$$
 
 예를 들어 신용카드 대금 정보를 위 모델에 적용하였을 때 아래와 같은 값을 얻었다고 하자. 
+
 |              | 계수   | 표준편차 | t-value | p-값     |
 | ------------ | ------ | -------- | ------- | -------- |
 | 절편         | 509.80 | 33.13    | 15.389  | < 0.0001 |
@@ -43,5 +44,6 @@ $$y_i=\beta_0+\beta_1 x_i+\epsilon_i= \begin{cases}\,\,\beta_0+\beta_1+\epsilon_
 만약 3개 이상의 범주가 있다면 아래와 같이 다중선형회귀 형태로 작성될 수 있다. 
 $$x_{i1}\begin{cases}\,\,1 & \text { i 번째 사람이 아시아인 경우 } \\\\ \,\,0 & \text{ i 번째 사람이 아시아인이 아닌 경우}\end{cases}$$
 $$x_{i2}\begin{cases}\,\,1 & \text { i 번째 사람이 백인 경우 } \\\\ \,\,0 & \text{ i 번째 사람이 백인이 아닌 경우}\end{cases}$$
-	$$y_i=\beta_0+\beta_1 x_{i1}+\beta_1 x_{i2}+\epsilon_i= \begin{cases}\,\,\beta_0+\beta_1+\epsilon_i & \text{i 번째 사람이 아시아인 경우}\\\\\,\,\beta_0+\beta_2+\epsilon_i & \text{i 번째 사람이 백인 경우}\\ \\\,\, \beta_0+\epsilon_i & \text{i 번째 사람이 흑인 경우}\end{cases}$$
-	
+
+$$y_i=\beta_0+\beta_1 x_{i1}+\beta_1 x_{i2}+\epsilon_i= \begin{cases}\,\,\beta_0+\beta_1+\epsilon_i & \text{i 번째 사람이 아시아인 경우}\\\\\,\,\beta_0+\beta_2+\epsilon_i & \text{i 번째 사람이 백인 경우}\\ \\\,\, \beta_0+\epsilon_i & \text{i 번째 사람이 흑인 경우}\end{cases}$$
+
