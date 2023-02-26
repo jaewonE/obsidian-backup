@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -201,7 +201,10 @@
   },
   "active": "ce2a96a7034bc68a",
   "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/예측구간.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표준 오차(SEM).md",
     "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "ignoreBackup/연습문제 정답 가상본",
@@ -225,9 +228,6 @@
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-후진선택(Backward.md",
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-후진선택(Backward selection).md",
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-전진선택.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/예측구간.md",
-    "가볍게 시작하는 통계학/2장 통계학습/2.1 통계학습이란?.md",
-    "가볍게 시작하는 통계학/2장 통계학습/설명변수와 반응변수.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/curse_dimensionality.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/edges.png",
     "가볍게 시작하는 통계학/연습문제 정답/ch9/figure/9a.png",
