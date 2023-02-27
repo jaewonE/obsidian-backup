@@ -1,4 +1,6 @@
 *
 !.gitignore
 !.obsidian/
-README.md
+!README.md
+
+!/가볍게 시작하는 통계학/*
