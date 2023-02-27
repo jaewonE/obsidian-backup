@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md"
+                "file": "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md"
               }
             }
           }
@@ -215,6 +215,7 @@
   },
   "active": "5b684d787b336f14",
   "lastOpenFiles": [
+    "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
     "가볍게 시작하는 통계학/3장 선형회귀/F분포.md",
     "가볍게 시작하는 통계학/3장 선형회귀/F-value.md",
     "가볍게 시작하는 통계학/2장 통계학습/Images/F분포-누적분포함수.png",
@@ -223,7 +224,6 @@
     "가볍게 시작하는 통계학/2장 통계학습/Images/카이제곱분포-확률밀도함수.png",
     "카이제곱분포-누적분포함수.png",
     "카이제곱분포-확률밀도함수.png",
-    "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
     "가볍게 시작하는 통계학/3장 선형회귀/검정통계량.md",
     "가볍게 시작하는 통계학/3장 선형회귀/카이제곱 분포.md",
     "가볍게 시작하는 통계학/3장 선형회귀/변수선택-혼합선택(Mixed selection).md",

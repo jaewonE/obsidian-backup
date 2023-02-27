@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "#질문",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -33,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 90,
   "scale": 1.0887633516246669,
-  "close": true
+  "close": false
 }
