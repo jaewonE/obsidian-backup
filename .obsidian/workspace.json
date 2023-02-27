@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "33b650ef5ffd307d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "conflict-files-obsidian-git.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -195,13 +209,15 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "440a6f71802d03f5",
+  "active": "33b650ef5ffd307d",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "README.md",
+    "conflict-files-obsidian-git.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
     "TODO LIST/2023-02-28.md",
     "가볍게 시작하는 통계학.zip",
@@ -238,7 +254,6 @@
     "가볍게 시작하는 통계학/3장 선형회귀/3.1 단순선형회귀.md",
     "ignoreBackup/연습문제 정답 가상본",
     "가볍게 시작하는 통계학/3장 선형회귀/3.2 다중선형회귀.md",
-    "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/neighbor.R",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/dimension.R",
     "가볍게 시작하는 통계학/연습문제 정답/ch2/notes/Hypercube-boundary-experiment.R",
