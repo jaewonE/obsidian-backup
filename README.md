@@ -13,4 +13,5 @@
 #### 변경사랑 가져오기
 
 1. git pull
-2. sdafasdf
+
+jaewonE: 20230228 오후 13:50분

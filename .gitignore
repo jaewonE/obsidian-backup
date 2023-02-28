@@ -10,4 +10,5 @@
 
 .DS_Store
 **/.DS_Store
+.obsidian
 .obsidian/workspace.json
