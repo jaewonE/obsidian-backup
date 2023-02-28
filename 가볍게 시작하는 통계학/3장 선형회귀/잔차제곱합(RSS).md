@@ -1,5 +1,5 @@
 ##### 잔차제곱합
-잔차제곱합(residual sum of squares)이란 [[잔차]]의 제곱들의 합이다.
+잔차제곱합(residual sum of squares)이란 [[잔차(residual)]]의 제곱들의 합이다.
 
 i번째 잔차($e_i$)는 $e_i = y_i - \hat{y_i}$이고 잔차제곱합(RSS)은 아래와 같이 정의한다.
 $$RSS=\displaystyle\sum_{i=1}^n(y_i - \hat{y}_i)^2=e_1^2 + e_2^2 + ... + e^2_n$$
