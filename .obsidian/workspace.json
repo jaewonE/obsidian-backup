@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md"
+                "file": "README.md"
               }
             }
           }
@@ -209,13 +209,14 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "d847437d73162858",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
     "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
+    "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
     "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
     "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.2 다중선형회귀.md",
