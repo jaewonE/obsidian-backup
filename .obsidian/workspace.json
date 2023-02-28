@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "c5c174bb0d3e6e50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f4ebb200ac76216b",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,10 +227,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d847437d73162858",
+  "active": "c5c174bb0d3e6e50",
   "lastOpenFiles": [
-    "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "가볍게 시작하는 통계학/3장 선형회귀/표준선형회귀(Standard linear Regression).md",
+    "가볍게 시작하는 통계학/3장 선형회귀/연습문제.md",
     "가볍게 시작하는 통계학/3장 선형회귀/모회귀선.md",
     "가볍게 시작하는 통계학/3장 선형회귀/다중선형회귀.md",
     "가볍게 시작하는 통계학/3장 선형회귀/3.2 다중선형회귀.md",
@@ -232,8 +248,6 @@
     "가볍게 시작하는 통계학/스크린샷 2023-02-27 오후 10.48.12.png",
     "가볍게 시작하는 통계학/3장 선형회귀/Images/스크린샷 2023-02-27 오후 10.48.12.png",
     "무제 파일.md",
-    "README.md",
-    "conflict-files-obsidian-git.md",
     "가볍게 시작하는 통계학/3장 선형회귀/카이제곱분포.md",
     "가볍게 시작하는 통계학.zip",
     "가볍게 시작하는 통계학/3장 선형회귀/R2 통계량.md",
