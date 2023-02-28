@@ -7,5 +7,6 @@
     "embed-adjustments",
     "header-spacing",
     "main"
-  ]
+  ],
+  "baseFontSize": 16
 }
