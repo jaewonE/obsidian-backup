@@ -13,3 +13,9 @@ $$RSS = \displaystyle\sum_{i=1}^n(y_i - \hat{y}_i)^2=\displaystyle\sum_{i=1}^n(y
 
 ##### 상위문서
 [[최소제곱법]]
+
+##### 주의사항
+문서에 따라서 잔차제곱합은 RSS, SSR, SSE 3가지로 혼용하여 표기된다. 
+* residual sum of squares (RSS)
+* sum of squared residuals (SSR)
+* sum of squared errors of prediction (SSE)
