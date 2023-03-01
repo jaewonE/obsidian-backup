@@ -1,4 +1,4 @@
-Explained sum of squares으로 오차제곱합이라고 부르고 약어로 SSE로 표현한다.
+Explained sum of squares으로 오차제곱합, 그룹 내 분산이라고 부르고 약어로 SSE로 표현한다.
 $$SSE=\displaystyle\sum^n_{i=1}(\hat{y_i}-\bar{y})^2$$
 <br>
 아래와 같이 n개의 데이터를 m개의 그룹으로 나누었다고 할 때 오차제곱합을 아래와 같이 표현될 수도 있다.
