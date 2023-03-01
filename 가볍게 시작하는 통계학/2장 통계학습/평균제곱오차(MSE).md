@@ -1,6 +1,4 @@
-### 평균 제곱 오차 MSE
-
-평균제곱오차(MSE: mean squared error)
+평균제곱오차(MSE: mean squared error), 평균오차제곱합이라고도 부른다.
  $M S E=\frac{1}{n} \sum_{i=1}^n\left(y_i-\hat{f}\left(x_i\right)\right)^2$
 MSE: 실제값과의 오차 제곱의 평균 (여기서, $\hat{f}(x_i)$는 i번째 관측치에 대한 예측값이다.)
 
