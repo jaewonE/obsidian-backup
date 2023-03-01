@@ -8,3 +8,4 @@ $$SST=\displaystyle\sum^n_{i=1}(y_i-\bar{y})^2$$
 $$\sum_{i=1}^m \sum_{j=1}^{n_i}\left(y_{i, j}-\bar{y}\right)^2$$
 
 * 표본 크기를 n이라고 할 때 전체 제곱합의 자유도는 n-1 이다. 
+* [[SST, SSE, SSR 관계]]
