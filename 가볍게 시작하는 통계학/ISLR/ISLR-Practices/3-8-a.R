@@ -19,3 +19,9 @@ qqline(residuals)
 
 #모델의 SEE를 출력한다.
 summary(mpg_power)$sigma
+
+#mpg의 평균을 계산한다. na.rm=T옵션은 결측값을 제외하는 옵션이다.
+mean(Auto$mpg, na.rm=T)
+
+#평균mpg값에 대한 백분률 오차로 변환(RSE/mean)
+4.906/mean(Auto$mpg, na.rm=T) * 100.0
