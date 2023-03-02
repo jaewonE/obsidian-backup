@@ -16,3 +16,6 @@ residuals <- residuals(mpg_power)
 # Q-Q plot 그리기
 qqnorm(residuals)
 qqline(residuals)
+
+#모델의 SEE를 출력한다.
+summary(mpg_power)$sigma
