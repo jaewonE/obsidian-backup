@@ -20,6 +20,20 @@
         "a": 1,
         "rgb": 14069084
       }
+    },
+    {
+      "query": "path:\"가볍게 시작하는 통계학/분산분석\"",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:\"가볍게 시작하는 통계학/4장 분류\"",
+      "color": {
+        "a": 1,
+        "rgb": 2869943
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +46,6 @@
   "repelStrength": 7.07194010416667,
   "linkStrength": 1,
   "linkDistance": 90,
-  "scale": 0.7407075949025577,
+  "scale": 0.776588183316447,
   "close": true
 }
