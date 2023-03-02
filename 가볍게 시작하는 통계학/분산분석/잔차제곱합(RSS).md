@@ -10,6 +10,8 @@ $$RSS=\displaystyle\sum_{i=1}^n(y_i - \hat{y}_i)^2=\displaystyle\sum^n_{i=1}\lef
 ##### 다중선형회귀에서의 잔차제곱합
 다중선형회귀의 경우 여러개의 x값이 존재할 수 있기에 잔차제곱합은 아래와 같이 풀어 작성될 수도 있다.
 $$RSS = \displaystyle\sum_{i=1}^n(y_i - \hat{y}_i)^2=\displaystyle\sum_{i=1}^n(y_i - \hat{\beta_0} - \hat{\beta_1}x_{i1} - \hat{\beta_2}x_{i2} - ... -\hat{\beta_p}x_{ip})^2$$
+##### 성질
+* [[SST, SSE, SSR 관계]]
 
 ##### 상위문서
 [[최소제곱법]]
