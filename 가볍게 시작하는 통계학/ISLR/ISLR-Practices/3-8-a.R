@@ -25,3 +25,7 @@ mean(Auto$mpg, na.rm=T)
 
 #평균mpg값에 대한 백분률 오차로 변환(RSE/mean)
 4.906/mean(Auto$mpg, na.rm=T) * 100.0
+
+#horsepower가 98일 경우 모델의 mpg값의 예측구간과 95%신뢰구간
+predict(mpg_power, data.frame(horsepower=c(98)), interval='prediction')
+predict(mpg_power, data.frame(horsepower=c(98)), interval='confidence')
