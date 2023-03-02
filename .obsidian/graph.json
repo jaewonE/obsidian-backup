@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "정리",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 7.07194010416667,
   "linkStrength": 1,
   "linkDistance": 90,
-  "scale": 0.8308819435832399,
+  "scale": 1.6331450274370045,
   "close": false
 }
