@@ -29,6 +29,10 @@ $$t = \cfrac{\bar{X}_1 - \bar{X}_2}{\sqrt{\cfrac{s^2_p}{n_1} + \cfrac{s_p^2}{n_2
 ### t-value의 성질
 t-value가 크가는 것은 두 그룹의 평균 차이가 크다는 것이다.
 
+#질문
+> t-value가 0이라는 것은 무엇을 의미하는가?
+> + t-value가 0일 때 p-value가 의미하는바?
+
 ### t-test
 t-value와 [[t 분포]]를 이용하여 가설을 검증하는 [[t 검정(t-test)]]에 사용될 수 있다.
 
