@@ -29,6 +29,8 @@ $$t = \cfrac{\bar{X}_1 - \bar{X}_2}{\sqrt{\cfrac{s^2_p}{n_1} + \cfrac{s_p^2}{n_2
 ### t-value의 성질
 t-value가 크가는 것은 두 그룹의 평균 차이가 크다는 것이다.
 
+t값이 커지면 p값도 커진다. 
+
 #질문
 > t-value가 0이라는 것은 무엇을 의미하는가?
 > + t-value가 0일 때 p-value가 의미하는바? - 작을 수록 모델에 작 적합한 것?
