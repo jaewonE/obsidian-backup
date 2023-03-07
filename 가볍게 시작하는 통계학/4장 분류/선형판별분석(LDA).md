@@ -4,7 +4,8 @@
 위와 같은 한계는 $Pr(Y=k|X=x)$를 직접 모델링 하여 발생하는 문제이다. 이에 베이즈 정리를 사용하여 구한 $Pr(Y=k|X=x)$의 추정치를 통해 모델링을 하는 선형판별분석을 대안적으로 사용한다.
 
 ### 정의
-**선형판별분석(Linear Discriminant Analysis : LDA)** 은 데이터 분포를 학습해 **결정경계(Decision boundary)** 를 만들어 데이터를 **분류(classification)** 하는 모델이다.
+**선형판별분석(Linear Discriminant Analysis : LDA)** 은 데이터 분포를 학습해 **결정경계(Decision boundary)** 를 만들어 데이터를 **분류(classification)** 하는 모델이다. 이에 선형판별분석은 아래와 같은 순서로 진행된다. 
+
 1. 반응변수 Y의 각 클래스에서 설명변수 X의 분포를 모델링하고
 2. 베이즈 정리를 사용하여 $Pr(Y=k|X=x)$ 에 추정치를 얻는다.
 3. 이 분포들이 정규분포라고 가정 할 경우 모델은 로지스틱 회귀와 형태가 아주 비슷하다. 
@@ -26,7 +27,7 @@ X에 대한 베이즈 정리를 통해 다음 사실을 알 수 있다.
 
 위와 같은 X에 대한 베이즈 정리를 이용하여 설명변수가 1개일 때와 2개 이상일 때를 나누어 베이즈 분류기를 적용하여 보자.
 <br>
-### 설명변수가 1개인 경우
+### 판별함수: 설명변수가 1개인 경우
 설명변수가 1개 일 때 사후확률(  $p_k(x)$ )이 최대가 되는 클래스로 관측치를 분류하기 위해서 밀도함수(  $f_k(X)$ )를 1차원의 정규밀도함수(정규분포 또는 가우스 분포)로 가정하자. 
 밀도함수(  $f_k(X)$ ) 는 아래와 같고
 $$f_k(x)=\frac{1}{\sqrt{2 \pi} \sigma_k} \exp \left(-\frac{1}{2 \sigma_k^2}\left(x-\mu_k\right)^2\right)$$
@@ -37,8 +38,17 @@ $$f_k(x)=\frac{1}{\sqrt{2 \pi} \sigma_k} \exp \left(-\frac{1}{2 \sigma_k^2}\left
 $$p_k(x)=\frac{\pi_k \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{1}{2 \sigma^2}\left(x-\mu_k\right)^2\right)}{\sum_{l=1}^K \pi_l \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{1}{2 \sigma^2}\left(x-\mu_l\right)^2\right)}$$
 
 베이즈 분류기는 베이즈 정리 값인 사후확률이 최대가 되는 클래스 관측치 $X=x$를 할당하는 것이다. 따라서 위 식을 정리한 아래식의 값을 최대로 하는 클래스에 관측치를 할당하는 것과 동일하다. 
-> 앞으로 아래 식을 $\delta_k(x)$ 라고 앞으로 부르겠다.
 $$\delta_k(x)=x \cdot \frac{\mu_k}{\sigma^2}-\frac{\mu_k^2}{2 \sigma^2}+\log \left(\pi_k\right)$$
-ㅁㄴㅇ
+위 식을 **판별함수** 라고 부르고  $\delta_k(x)$ 라고 표기한다.
+> 앞으로 판별함수 추정치와 판별함수 모두 구분하지 않고 판별함수라고 부르겠다.
+
+판별함수(  $\hat{\delta}_k(x)$  )을 구하기 위해서는 $\mu_k\,,\,\sigma^2\,,\,\pi_k$ 로 총 3개의 변수에 대한 추정값이 필요하다. 이때 사용하는 것이 선형판별분석이다.
 <br>
-### 설명변수가 2개 이상인 경우
+### 선형판별분석 분류기
+선형판별분석(LDA) 방법은 $\mu_k\,,\,\sigma^2\,,\,\pi_k$ 에 대한 추정값을 판별함수에 대입하여 베이즈 분류기를 근사하는 것이다. 선형판별분석에서는 다음 추정치가 사용된다.
+$$\begin{aligned} \hat{\mu}_k & =\frac{1}{n_k} \sum_{i: y_i=k} x_i \\ \hat{\sigma}^2 & =\frac{1}{n-K} \sum_{k=1}^K \sum_{i: y_i=k}\left(x_i-\hat{\mu}_k\right)^2 \\ \hat{\pi}_k & =\cfrac{n_k}{n} \end{aligned}$$
+즉 LDA 분류기는 아래 판별함수가 최대가 되는 클래스에 관측치 $X=x$를 할당한다. 
+$$\hat{\delta}_k(x)=x \cdot \frac{\hat{\mu}_k}{\hat{\sigma}^2}-\frac{\hat{\mu}_k^2}{2 \hat{\sigma}^2}+\log \left(\hat{\pi}_k\right)$$
+이때 판별함수(  $\hat{\delta}_k(x)$ )가 x의 선형함수인 탓에 분류기 이름에 **선형** 이라는 말이 붙었다.
+<br>
+### 판별함수: 설명변수가 2개 이상인 경우
