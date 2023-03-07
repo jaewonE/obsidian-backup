@@ -23,8 +23,22 @@ $$p_k(x) = Pr(Y=k|X=x) = \cfrac{\pi_kf_k(x)}{\sum^K_{l=1}\pi_lf_l(x)}$$
 X에 대한 베이즈 정리를 통해 다음 사실을 알 수 있다.
 * k번째 클래스의 관측치 값이 X에 거이 근접할 때($X \approx x$ 의 확률이 높을 때) $f_k(x)$의 값이 상대적으로 크다. 
 * k번째 클래스의 관측치 값이 X에 근접 하지 않을 때($X \approx x$ 일 가능성이 낮을 때) $f_k(x)$의 값이 상대적으로 작다. 
+
+위와 같은 X에 대한 베이즈 정리를 이용하여 설명변수가 1개일 때와 2개 이상일 때를 나누어 베이즈 분류기를 적용하여 보자.
 <br>
 ### 설명변수가 1개인 경우
+설명변수가 1개 일 때 사후확률(  $p_k(x)$ )이 최대가 되는 클래스로 관측치를 분류하기 위해서 밀도함수(  $f_k(X)$ )를 1차원의 정규밀도함수(정규분포 또는 가우스 분포)로 가정하자. 
+밀도함수(  $f_k(X)$ ) 는 아래와 같고
+$$f_k(x)=\frac{1}{\sqrt{2 \pi} \sigma_k} \exp \left(-\frac{1}{2 \sigma_k^2}\left(x-\mu_k\right)^2\right)$$
+> * $\mu_k$ 와 $\sigma_k^2$ 는 k번째 클래스에 대한 평균과 분산이다.
+> * 위 식은 모든 K개 클래스에 대한 공통을 분산($\sigma^2_1 = \sigma^2_2 = ... = \sigma^2_K$)이 있다고 가정하며 그 값을 $\sigma^2$ 이라 한다.
 
+이를 베이즈 정리에 대입하면 아래와 같다.
+$$p_k(x)=\frac{\pi_k \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{1}{2 \sigma^2}\left(x-\mu_k\right)^2\right)}{\sum_{l=1}^K \pi_l \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{1}{2 \sigma^2}\left(x-\mu_l\right)^2\right)}$$
+
+베이즈 분류기는 베이즈 정리 값인 사후확률이 최대가 되는 클래스 관측치 $X=x$를 할당하는 것이다. 따라서 위 식을 정리한 아래식의 값을 최대로 하는 클래스에 관측치를 할당하는 것과 동일하다. 
+> 앞으로 아래 식을 $\delta_k(x)$ 라고 앞으로 부르겠다.
+$$\delta_k(x)=x \cdot \frac{\mu_k}{\sigma^2}-\frac{\mu_k^2}{2 \sigma^2}+\log \left(\pi_k\right)$$
+ㅁㄴㅇ
 <br>
 ### 설명변수가 2개 이상인 경우
