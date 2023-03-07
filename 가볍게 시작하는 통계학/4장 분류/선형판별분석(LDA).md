@@ -78,7 +78,7 @@ $$\hat{\delta}_k(x)=x \cdot \frac{\hat{\mu}_k}{\hat{\sigma}^2}-\frac{\hat{\mu}_k
 
 >이때 다변량 가우스분포는 $N(\mu_k,\boldsymbol{\Sigma})$ 을 따르는데 $\mu_k$는 클래스 특정 평균벡터이고 $\boldsymbol{\Sigma}$는 클래스 모두에게 공통인 공분산 행렬이다.
 
-다변향 가우스분포를 밀도함수로 하는 베이즈 분류기는 아래 식의 값이 최대가 ㄷ되었을 때 사후확률(베이즈 정리 값)이 최대가 되는 클래스 관측치 $X=x$를 할당한다.
+다변향 가우스분포를 밀도함수로 하는 베이즈 분류기는 아래 식의 값이 최대가 되었을 때 사후확률(베이즈 정리 값)이 최대가 되는 클래스 관측치 $X=x$를 할당한다.
 $$\delta_k(x)=x^T \boldsymbol{\Sigma}^{-1} \mu_k-\frac{1}{2} \mu_k^T \boldsymbol{\Sigma}^{-1} \mu_k+\log \pi_k$$
 설명변수가 1개 일 때와 동일하게 **판별함수** 라고 부르고  $\delta_k(x)$ 라고 표기한다.
 > 동일하게 판별함수 추정치와 판별함수 모두 구분하지 않고 판별함수라고 부르겠다.
@@ -86,3 +86,15 @@ $$\delta_k(x)=x^T \boldsymbol{\Sigma}^{-1} \mu_k-\frac{1}{2} \mu_k^T \boldsymbol
 판별함수(  $\hat{\delta}_k(x)$  )을 구하기 위해서는 $\mu_k\,,\,\boldsymbol{\Sigma}\,,\,\pi_k$ 로 총 3개의 변수에 대한 추정값이 필요하다. 이때 사용하는 것이 선형판별분석 분류기이다.
 
 ### 선형판별분석 분류기
+선형판별분석분류기(LDA 분류기)는$\mu_k\,,\,\boldsymbol{\Sigma}\,,\,\pi_k$ 에 대한 추정값을 판별함수에 대입하여 베이즈 분류기를 근사하는 것이다. 이 때 다음 추정치가 사용된다.
+$$\begin{aligned} \hat{\mu}_k & =\frac{1}{n_k} \sum_{i: y_i=k} x_i \\ \hat{\sigma}^2 & =\frac{1}{n-K} \sum_{k=1}^K \sum_{i: y_i=k}\left(x_i-\hat{\mu}_k\right)^2 \\ \hat{\pi}_k & =\cfrac{n_k}{n} \end{aligned}$$
+>* n은 총 훈련 관측치의 개수
+>* $n_k$는 k번째 클래스의 훈련 관측치 수
+>* $\hat{\mu}_k$는 k번째 클래스 내 모든 훈련 관측치들의 평균
+>* $\hat{\sigma^2}$는 K개 클래스 각각에 대한 표본분산의 가중평균
+
+즉 LDA 분류기는 아래 판별함수가 최대가 되는 클래스에 관측치 $X=x$를 할당한다. 
+$$\hat{\delta}_k(x)=x \cdot \frac{\hat{\mu}_k}{\hat{\sigma}^2}-\frac{\hat{\mu}_k^2}{2 \hat{\sigma}^2}+\log \left(\hat{\pi}_k\right)$$
+>위 판별함수(  $\hat{\delta}_k(x)$ )가 x의 선형함수인 탓에 분류기 이름에 **선형** 이라는 말이 붙었다.
+
+정리하면, LDA 분류기는 각 클래스 내의 관측치들이 클래스 특정(클래스 별) 평균벡터와 클래스 공통의 분산($\sigma^2$)을 갖는 정규분포를 따른다는 가정하에 이 파라미터들에 대한 추정값을 베이즈 분류기에 대입하여 얻는다. 
