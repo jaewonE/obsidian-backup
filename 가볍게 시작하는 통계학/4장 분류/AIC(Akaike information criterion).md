@@ -41,3 +41,28 @@ AIC(res3)
 curve(res2$coeff[1] + res2$coeff[2] * x + res2$coeff[3] * x^2, 20, 60, add=T)
 ```
 ![[Pasted image 20230310123331.png]]
+### 예시2, 최적 AIC 자동탐색
+```
+# 랜덤 데이터 생성
+
+x = -10:10; 
+x2 = x^2; 
+x3=x^3; 
+x4=x^4;
+
+y = 1 + x + x^3 + 100 * rnorm(length(x))
+
+# 다항식 회귀분석（step함수로 최소 AIC 자동탐색）
+
+res = lm(y~x + x2 + x3 + x4);
+best = step(res)
+best$coeff
+
+#  (Intercept)             x             x3
+# -4.5769655      14.9824062      0.8183213
+
+# 구한 모델 플로팅
+plot(x, y)
+curve(best$coeff[1] + best$coeff[2] * x + best$coeff[3] * x^3, -10, 10, add=T)
+```
+![[Pasted image 20230310123715.png]]
