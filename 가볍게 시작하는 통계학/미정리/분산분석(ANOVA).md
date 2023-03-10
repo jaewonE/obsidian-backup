@@ -12,10 +12,29 @@
 
 
 ## 분산분석 자료의 기본 형태
-분산분석을 수행할 때 사용되는 자료는 아래와 같은 형태를 띄고 있다. 아래 자료는 One-Way ANOVA Model이라고 부른다. (왜?)
+분산분석을 수행할 때 사용되는 자료는 아래와 같은 형태를 띄고 있다. 아래 자료는 One-Way ANOVA Model이라고 부른다. Factor가 하나이기 때문이다. 
+
 |                       | Replicate 1    | Replicate 2    |       ...            | Replicate n    |
 | --------------------- | -------------- | -------------- | -------------- | -------------- |
 | Factor Level 1        | $y_{11}$       | $y_{12}$       | $y_{1j}$       | $y_{1n}$       |
 | Factor Level 2        | $y_{21}$       | $y_{22}$       | $y_{2j}$       | $y_{2n}$       |
 | ....                  | $y_{i1}$       | $y_{i2}$       | $y_{ij}$       | $y_{in}$               |
 | Factor Level $\alpha$ | $y_{\alpha 1}$ | $y_{\alpha 2}$ | $y_{\alpha j}$ | $y_{\alpha n}$ |
+
+* 를 들어 온도에 따른 철의 연성정도를 알아보고자 할 때 Factor는 온도에 해당하고 각 온도(750도, 800도, ...)는 Level에 해당하고 반복횟수는 Replicate에 해당한다. 
+* ${y_{ij}}$는 Level i에서 j번째 관측치인 것이다. 
+* $\mu_i$는 Level i의 평균으로 $\mu_i = \sum^n_{j=1}y_{ij} \div n$ 인 것이다.  
+
+$Y_{ij} = \mu_i + \epsilon_{ij}$ : i번째 레벨에 j번째 관측치(j번째 반복된 값)는 i번째 평균과 오차항의 합으로 이루어진다. 이때 오차항은 평균이 0이고 분산이 $\sigma^2$인 정규분포를 따른다. ($\epsilon_{ij} \sim N(0, \sigma^2)$) 
+
+
+i번째 레벨의 관측치 평균의 추정량 $\hat{\mu_i}$은 
+$$\hat{\mu_i}=\overline{Y}_{i\bullet} = \cfrac{\sum^n_{j=1}Y_{ij}}{n}$$
+
+이고 전체 관측치 평균의 추정량 $\hat{\mu}$는 
+$$\hat{\mu} = \overline{Y}_{\bullet\bullet} = \cfrac{\sum^k_{i=1}\sum^n_{j=1}Y_{ij}}{nk}$$
+이다.  
+
+
+
+ 
