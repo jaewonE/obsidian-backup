@@ -1,4 +1,4 @@
-최대 우도 추정법(Maximum Likelihood Estimation, 약자로 MLE)은 [[우도]]의 값이 최대가 되는 지점을 찾는 방법이다. 
+최대 우도 추정법(Maximum Likelihood Estimation, 약자로 MLE)은 [[우도 함수(Likelihood function)]]를 최대화하는 파라미터 값을 추정한다.
 
 ### 가정
 최대가 되는 우도 추정하기 위해서는 한 가지의 가정이 필요하다. 
