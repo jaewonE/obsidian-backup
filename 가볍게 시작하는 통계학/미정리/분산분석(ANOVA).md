@@ -25,6 +25,10 @@
 * ${y_{ij}}$는 Level i에서 j번째 관측치인 것이다. 
 * $\mu_i$는 Level i의 평균으로 $\mu_i = \sum^n_{j=1}y_{ij} \div n$ 인 것이다.  
 
+
+**그렇다면 AVOVA 분석은 어떻게 할 수 있을까** 
+결론분터 말하면 SSA와 SSE를 비교함으로써 AVOVA 분석(가설검정)을 할 수 있다. 
+
 $Y_{ij} = \mu_i + \epsilon_{ij}$ : i번째 레벨에 j번째 관측치(j번째 반복된 값)는 i번째 평균과 오차항의 합으로 이루어진다. 이때 오차항은 평균이 0이고 분산이 $\sigma^2$인 정규분포를 따른다. ($\epsilon_{ij} \sim N(0, \sigma^2)$) 
 
 
@@ -35,6 +39,20 @@ $$\hat{\mu_i}=\overline{Y}_{i\bullet} = \cfrac{\sum^n_{j=1}Y_{ij}}{n}$$
 $$\hat{\mu} = \overline{Y}_{\bullet\bullet} = \cfrac{\sum^k_{i=1}\sum^n_{j=1}Y_{ij}}{nk}$$
 이다.  
 
+[[전체 제곱합(SST)]]
+각각의 관측치에다가 전체 평균을 빼고 제곱을 취한 값을 모두 더했다.
+$$S S \mathrm{~T}=\sum_{i=1}^k \sum_{j=1}^n\left(y_{i j}-\bar{y}_{\bullet\bullet}\right)^2=n \sum_{i=1}^k y_{i j}^2-(n k) \bar{y}_{\bullet \bullet}{ }^2$$
+
+[[Level sum of sqares(SSA)]]
+i번째 레벨의 평균에서 전체 평균을 빼고 제곱을 취한 값을 모두 더한것으로 각 레벨간의 차이가 있는지 확인하는 것이다. 
+$$S S \mathrm{A}=\sum_{i=1}^k \sum_{j=1}^n\left(y_{i \bullet}-\bar{y}_{\bullet\bullet}\right)^2=n \sum_{i=1}^k (\bar{y}_{i\bullet} - \bar{y}_{\bullet \bullet})^2$$
+
+[[오차제곱합(SSE)]]
+i번째 레벨에 j번째 관측치에서 i번째 레벨의 평균을 빼고 제곱을 취한 값을 모두 더한것으로 각 레벨 내에서의 차이(변동)을 확인하는 것이다. 
+$$S S \mathrm{E}=\sum_{i=1}^k \sum_{j=1}^n\left(y_{ij}-\bar{y}_{i\bullet}\right)^2$$
 
 
- 
+
+다시 돌아와서 AVOVA 분석을 왜 하는 것인가? 3개 이상의 모집단(3개 이상의 레벨)의 평균이 같은지 가설검정을 하기 위해서 AVOVA 분석을 수행한다. 
+이에 **레벨 간 차이(SSA)가 레벨 내 변동(SSE)보다 충분히 크다면 레벨간의 차이가 있고 귀무가설을 기각할 수 있다.** 
+
