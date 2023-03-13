@@ -44,11 +44,11 @@ $$\hat{\mu} = \overline{Y}_{\bullet\bullet} = \cfrac{\sum^k_{i=1}\sum^n_{j=1}Y_{
 $$S S \mathrm{~T}=\sum_{i=1}^k \sum_{j=1}^n\left(y_{i j}-\bar{y}_{\bullet\bullet}\right)^2=n \sum_{i=1}^k y_{i j}^2-(n k) \bar{y}_{\bullet \bullet}{ }^2$$
 
 [[Level sum of sqares(SSA)]]
-i번째 레벨의 평균에서 전체 평균을 빼고 제곱을 취한 값을 모두 더한것으로 각 레벨간의 차이가 있는지 확인하는 것이다. 
+i번째 레벨의 평균에서 전체 평균을 빼고 제곱을 취한 값을 모두 더한것으로 **각 레벨간의 차이**가 있는지 확인하는 것이다. 
 $$S S \mathrm{A}=\sum_{i=1}^k \sum_{j=1}^n\left(y_{i \bullet}-\bar{y}_{\bullet\bullet}\right)^2=n \sum_{i=1}^k (\bar{y}_{i\bullet} - \bar{y}_{\bullet \bullet})^2$$
 
 [[오차제곱합(SSE)]]
-i번째 레벨에 j번째 관측치에서 i번째 레벨의 평균을 빼고 제곱을 취한 값을 모두 더한것으로 각 레벨 내에서의 차이(변동)을 확인하는 것이다. 
+i번째 레벨에 j번째 관측치에서 i번째 레벨의 평균을 빼고 제곱을 취한 값을 모두 더한것으로 **각 레벨 내에서의 차이**(변동)을 확인하는 것이다. 
 $$S S \mathrm{E}=\sum_{i=1}^k \sum_{j=1}^n\left(y_{ij}-\bar{y}_{i\bullet}\right)^2$$
 
 SST, SSA, SSE 모두 분산에 일종이다.
@@ -66,4 +66,11 @@ SST, SSA, SSE 모두 분산에 일종이다.
 이에 **레벨 간 차이(SSA)가 레벨 내 변동(SSE)보다 충분히 크다면 레벨간의 차이가 있고 귀무가설을 기각할 수 있다.** 
 
 
-36.00
+$$MSA = \cfrac{SSA}{k-1}$$
+$$MSE = \cfrac{SSE}{k(n-1)}$$
+위 MSA와 MSE는 각각 SSA와 SSE의 자기 자신의 자유도로 나누어준 것이다. 
+이때 SSA와 SSE는 카이제곱분포를 따르고 각각의 자유도로 나누어 주었기에 MSA와 MSE의 비율은 F분포를 따른다. 즉,
+$$F = \cfrac{MSA}{MSE}$$
+
+마무리를 하자. 
+위에서 SSA의 값이 SSE보다 충분히 크다면 레벨간의 차이가 있고 귀무가설을 기각할 수 있다고 했었다. 이를 통해 각각의 자유도로 나누어 준 $F=MSA/MSE$ 값이 충분히 크다면 귀무가설을 기각할 수 있음을 알 수 있다. 
