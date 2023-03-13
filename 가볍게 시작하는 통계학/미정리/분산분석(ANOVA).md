@@ -76,8 +76,13 @@ $$F^* = \cfrac{MSA}{MSE} > f_{\alpha, k-1, k(n-1)}$$
 > $MSA = SSA / (k-1)$ , $MSE = SSE/k(n-1)$ 
 
 위의 내용을 한번에 정리한 테이블이 있다. 이 테이블을 AVOVA Table 이라고 부른다. 
-| Source | DF  | SS  | MS  | F   |
-| ------ | --- | --- | --- | --- |
-| Level  | k-1 | SSA | MSA | $F^*$*   |
-| Error  |     |     |     |     |
-| Total  |     |     |     |     |
+
+| **Source** | **DF**     | **SS**  | **MS**  | **F**     |
+| ------ | ------ | --- | --- | ----- |
+| **Level**  | k-1    | SSA | MSA | $F^*$ |
+| **Error**  | k(n-1) | SSE | MSE |       |
+| **Total**  | nk-1   | SST    |     |       |
+
+>AVOVA Table에서 핵심은 SS Source이다. SSA를 통해 MSA를 구하고 SSE를 통해 MSE를 구하고 이 비율을 통해 F도 구하니 말이다. 이에 가장 핵심이 되는 SS를 분석한다 하여 **분산분석** 이라고 부른다. 
+
+45:57
